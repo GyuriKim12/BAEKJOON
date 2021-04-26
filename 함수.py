@@ -3,6 +3,7 @@ def print_sum():
     count=0
     numbers=list()
     i=0
+    x=int(input('정수의 개수를 입력하시오: '))
     while count<x:
         s=input('정수를 입력하시오: ')
         numbers.append(int(s))
@@ -12,5 +13,4 @@ def print_sum():
         sum+=numbers[i]
         i+=1
     return sum
-x=int(input('정수의 개수를 입력하시오: '))
-print_sum()
+print('합은',print_sum())
